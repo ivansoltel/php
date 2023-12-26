@@ -15,8 +15,8 @@ $binario = 0b1011100;
 $flotante = 1.234;                  // Tipos flotantes (o double)
 $notCientifica = 1.2E-10;
 
-$nombreEmpresa = "Soltel";
-
+$nombreEmpresa = "Soltel";          // >Tipos Cadena
+$miColeccion = array("Volvo FH", "Mercedes EQS", "Apple Mac");
 
 
 ?>
@@ -43,8 +43,8 @@ $nombreEmpresa = "Soltel";
     echo $flotante. "<br>";                 
     echo $notCientifica. "<br>"; 
 
-
     echo $nombreEmpresa . "<br>";
+    echo var_dump($miColeccion) . "<br>";
     ?>
 </body>
 

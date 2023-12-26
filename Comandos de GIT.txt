@@ -1,0 +1,29 @@
+Comandos de GIT
+=====================
+- git init -> Inicia repositorio en Local (no usar si empezamos en Remoto)
+- git clone -> Clonar repositorio remoto
+- git remote add -> Añadir repositorio remoto adicional
+
+- git status -> Estado del repositorio. Archivos en rojo -> SIN SEGUIMIENTO
+- git add . -> Hacemos seguimiento
+- git commit -m "mensaje" -> Guardar cambios para local
+- git push -> Subir cambios al repositorio
+- git pull -> Bajar actualizaciones del repositorio
+
+- git branch <rama> -> Crea una rama
+	- git branch -> Ver ramas
+	- git branch -d <rama> -> Borrar rama
+	- git push origin -delete <rama>  -> Borrar rama en remoto
+
+- git checkout <rama> -> Pasar a otra rama
+- git merge <rama> -> Fusionar ramas
+
+- git restore -> Deshace los cambios en seguimiento
+	- git restore <archivo> -> Deshace cambios de 1 archivo
+- git reset <archivo> -> Elimina cambios archivo desde último commit (OJO!)
+
+- git config -> Configuración del GIT (General)
+
+	- NOTA: diff/log para salir con q + INTRO
+- git diff <archivo> -> Cambios en el archivo para rastreo
+- git log -> Muestra el historial de cambios (commits)

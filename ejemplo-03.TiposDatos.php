@@ -18,6 +18,11 @@ $notCientifica = 1.2E-10;
 $nombreEmpresa = "Soltel";          // >Tipos Cadena
 $miColeccion = array("Volvo FH", "Mercedes EQS", "Apple Mac");
 
+class Camion {
+    public $marca = "Volvo";
+    public $modelo = "FH Electric";
+}
+$miCamion = new Camion();
 
 ?>
 
@@ -45,6 +50,7 @@ $miColeccion = array("Volvo FH", "Mercedes EQS", "Apple Mac");
 
     echo $nombreEmpresa . "<br>";
     echo var_dump($miColeccion) . "<br>";
+    echo var_dump($miCamion). "<br>";
     ?>
 </body>
 

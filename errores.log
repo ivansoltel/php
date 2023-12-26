@@ -1,0 +1,4 @@
+[26-Dec-2023 13:21:12 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "miCamion" in C:\xampp\htdocs\repo\php\ejemplo-03.TiposDatos.php:53
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\repo\php\ejemplo-03.TiposDatos.php on line 53

@@ -50,7 +50,7 @@ $miCamion = new Camion();
 
     echo $nombreEmpresa . "<br>";
     echo var_dump($miColeccion) . "<br>";
-    echo var_dump($miCamion). "<br>";
+    echo var_dump(miCamion). "<br>";
     ?>
 </body>
 

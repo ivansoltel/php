@@ -27,3 +27,14 @@ Comandos de GIT
 	- NOTA: diff/log para salir con q + INTRO
 - git diff <archivo> -> Cambios en el archivo para rastreo
 - git log -> Muestra el historial de cambios (commits)
+
+
+
+ERRORES PHP
+=============================
+display_errors=On
+display_startup_errors=On
+log_errors=On
+ignore_repeated_errors=Off
+ignore_repeated_source=Off
+

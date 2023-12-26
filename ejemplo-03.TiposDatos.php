@@ -15,10 +15,7 @@ $binario = 0b1011100;
 $flotante = 1.234;                  // Tipos flotantes (o double)
 $notCientifica = 1.2E-10;
 
-$nombreEmpresa = "Soltel";
-
-
-
+$nombreEmpresa = "Soltel";          // Tipo cadena
 ?>
 
 <!DOCTYPE html>
